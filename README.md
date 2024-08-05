@@ -38,6 +38,7 @@ To get started with this project, follow these steps:
    node dist/server.ts
    ```
 
+
 ## Usage
 
 Once the application is running, you can use the following endpoints:
@@ -51,6 +52,7 @@ Once the application is running, you can use the following endpoints:
 
 - **GET /api/shorturl/analytics**
   - Response: Returns analytics data including the original URL, short URL, and click counts.
+
 
 
 ## API Endpoints
@@ -72,10 +74,15 @@ Once the application is running, you can use the following endpoints:
   }
   ```
 
+
+
 ### Redirect to Original URL
 - **URL:** `/api/shorturl/:shortUrl`
 - **Method:** `GET`
 - **Response:** Redirects to the original URL.
+
+
+
 
 ### Get Analytics
 - **URL:** `/api/shorturl/analytics`
@@ -90,6 +97,8 @@ Once the application is running, you can use the following endpoints:
     }
   ]
   ```
+
+
 ## Testing
 
 To run the tests for this project, use the following command:
