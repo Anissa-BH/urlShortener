@@ -13,7 +13,7 @@ app.post('/api/shorturl', createShortUrl);
 app.get('/api/shorturl/:shortUrl', redirectToOriginalUrl);
 
 beforeAll(async () => {
-  await mongoose.connect('mongodb+srv://abh:anissa@cluster0.yttisk0.mongodb.net/urls');
+  await mongoose.connect('mongodb+srv://abh:*********@cluster0.yttisk0.mongodb.net/urls');
 });
 
 afterAll(async () => {
