@@ -44,8 +44,8 @@ To get started with this project, follow these steps:
 Once the application is running, you can use the following endpoints:
 
 - **POST /api/shorturl**
-  - Request Body: `{ "originalUrl": "http://example.com" }`
-  - Response: `{ "originalUrl": "http://example.com", "shortUrl": "short123" }`
+  - Request Body: `{ "originalUrl": "http://www.example.com" }`
+  - Response: `{ "originalUrl": "http://www.example.com", "shortUrl": "short123" }`
 
 - **GET /api/shorturl/:shortUrl**
   - Redirects to the original URL for the given short URL.
@@ -63,13 +63,13 @@ Once the application is running, you can use the following endpoints:
 - **Request Body:**
   ```json
   {
-    "originalUrl": "http://example.com"
+    "originalUrl": "http://www.example.com"
   }
   ```
 - **Response:**
   ```json
   {
-    "originalUrl": "http://example.com",
+    "originalUrl": "http://www.example.com",
     "shortUrl": "short123"
   }
   ```
@@ -91,7 +91,7 @@ Once the application is running, you can use the following endpoints:
   ```json
   [
     {
-      "originalUrl": "http://example.com",
+      "originalUrl": "http://www.example.com",
       "shortUrl": "short123",
       "clicks": 10
     }
